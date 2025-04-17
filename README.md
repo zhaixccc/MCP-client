@@ -26,7 +26,8 @@ cd MCP-client
 
 2. 创建并激活虚拟环境
 ```bash
-python -m venv .venv
+pip install uv
+uv venv
 .venv\Scripts\activate  # Windows
 source .venv/bin/activate  # Linux/Mac
 ```
